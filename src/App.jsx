@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header.jsx";
 import Section from "./components/Section.jsx";
+import HelpfulResource from "./components/HelpfulResource.jsx";
 
 function App() {
   return (
@@ -21,6 +22,28 @@ function App() {
           <li>Vivamus sit amet</li>
           <li>Proin nulla lectus</li>
         </ul>
+      </Section>
+      <Section title="Helpful Resources">
+        <HelpfulResource
+          label="Praesent quis eros libero"
+          link="https://reactjs.org/docs/getting-started.html"
+        />
+        <HelpfulResource
+          label="Nullam is ligula vitae justo interdum"
+          link="https://www.freecodecamp.org/news/learn-react/"
+        />
+        <HelpfulResource
+          label="Aliquam nisi turppls"
+          link="https://reactjs.org/docs/getting-started.html"
+        />
+        <HelpfulResource
+          label="Orci varius natoque penatibus et magnis"
+          link="https://reactjs.org/docs/getting-started.html"
+        />
+        <HelpfulResource
+          label="Phasellus aliquam"
+          link="https://reactjs.org/docs/getting-started.html"
+        />
       </Section>
     </div>
   );
