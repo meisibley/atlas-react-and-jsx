@@ -10,41 +10,41 @@ function App() {
     <div className="app">
       <Header />
       <Section title="What is react?">
-        <p>Morbi sed semper arcu, sed ullamcorper mauris. Integer nec turpis ipsum. 
-          Proin scelerisque sagittis rutrum. Nam ut tellus sagittis, scelerisque tortor 
-          vitae, suscipit ex. Ut ut lacus sit amet eros consequat pulvinar ornare in odio. 
-          Nulla eleifend laoreet lacus, ut fringilla purus dapibus nec.
+        <p>React is a JavaScript library for building user interfaces, maintained by Facebook. 
+          It allows developers to build complex UIs from small, isolated pieces of code called 
+          "components". React uses a virtual DOM to optimize rendering and update only parts of 
+          the UI that have changed, making it efficient and easy to manage.
         </p>
       </Section>
       <Section title="Benefits of react">
         <ul>
-          <li>Maecenas a tortor laoreet</li>
-          <li>Orci varius natoque</li>
-          <li>Donec vitae magna</li>
-          <li>Vivamus sit amet</li>
-          <li>Proin nulla lectus</li>
+          <li>Component-based architecture for reusable UI components</li>
+          <li>Efficient rendering with the virtual DOM</li>
+          <li>Strong community support and a rich ecosystem</li>
+          <li>Declarative programming model for easier debugging and maintenance</li>
+          <li>Easy integration with other libraries and framework</li>
         </ul>
       </Section>
       <Section title="Helpful Resources">
         <HelpfulResource
-          label="Praesent quis eros libero"
+          label="React Official Documentation"
           link="https://reactjs.org/docs/getting-started.html"
         />
         <HelpfulResource
-          label="Nullam is ligula vitae justo interdum"
+          label="React Tutorial for Beginners"
           link="https://www.freecodecamp.org/news/learn-react/"
         />
         <HelpfulResource
-          label="Aliquam nisi turppls"
-          link="https://reactjs.org/docs/getting-started.html"
+          label="React Crash Course"
+          link="https://www.youtube.com/watch?v=w7ejDZ8SWv8"
         />
         <HelpfulResource
-          label="Orci varius natoque penatibus et magnis"
-          link="https://reactjs.org/docs/getting-started.html"
+          label="Hello React"
+          link="https://atlas-jswank.github.io/blog/hello-react/"
         />
         <HelpfulResource
-          label="Phasellus aliquam"
-          link="https://reactjs.org/docs/getting-started.html"
+          label="ES Modules"
+          link="https://atlas-jswank.github.io/blog/es-modules/"
         />
       </Section>
       <Section title="About Me">
