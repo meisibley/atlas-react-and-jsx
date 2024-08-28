@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header.jsx";
 import Section from "./components/Section.jsx";
 import HelpfulResource from "./components/HelpfulResource.jsx";
+import AboutMe from "./components/AboutMe.jsx";
 
 function App() {
   return (
@@ -44,6 +45,9 @@ function App() {
           label="Phasellus aliquam"
           link="https://reactjs.org/docs/getting-started.html"
         />
+      </Section>
+      <Section title="About Me">
+        <AboutMe />
       </Section>
     </div>
   );
